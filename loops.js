@@ -14,7 +14,7 @@ do {
 
 var battingAverage = [33, 327, 267, 294, 303, 310, 255, 242, 217];
 
-for (i = 0; i < battingAverage,length; i ++) {
+for (i = 0; i < battingAverage.length; i ++) {
     if (battingAverage[i] > 300) {
         console.log('Here is a million dollar bonus.');
     } else if (battingAverage[i] > 280) {
